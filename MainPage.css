@@ -1,0 +1,26 @@
+.header-nav__item{
+    display:inline-block;
+color:white;
+padding:14px 50px;
+text-decoration:none;
+background-color:black;
+
+}
+.header-nav{
+margin:0;
+padding:0;
+overflow:hidden;
+}
+.header-nav__item:hover{
+    background-color: green;
+}
+.header-nav__item:active{
+    background-color: red;
+}
+.header-nav_len{
+    margin: 0;
+    background-color:black ;
+}
+.inside{
+    margin: 0;
+}
