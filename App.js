@@ -1,15 +1,15 @@
 import './App.css';
 import React,{Component} from 'react';
-import {Button} from 'react-bootstrap';
-import ColorChange from './ColorChange';
-import MainPage from './MainPage';
-class App extends Component{
-  
+import Register1 from './Register1';
+import './Register1.css';
+
+class App extends Component{  
   render(){
   return (
-  <div className="counter-style">
-      <MainPage/>
-      </div>
+      <>
+      <h1 className='main'>Registration</h1>
+      <Register1/>
+      </>
   );
   }
 }
